@@ -451,3 +451,32 @@ org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequ
 2024.12.09 16:40:13 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
 2024.12.09 16:40:15 WARN  no build target for: /home/smy/vlsi/chisel/src/main/Elaborate.scala[0m
 2024.12.09 20:14:59 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 20:19:45 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 20:19:45 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+12月 09, 2024 8:19:47 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 147
+12月 09, 2024 8:19:47 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 148
+12月 09, 2024 8:19:47 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 149
+2024.12.09 20:19:48 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 20:19:48 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 20:19:48 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 20:19:48 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 20:19:48 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+12月 09, 2024 8:19:48 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 156
+12月 09, 2024 8:19:48 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 152
+12月 09, 2024 8:19:48 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 155
+12月 09, 2024 8:19:48 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 150
+12月 09, 2024 8:19:48 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 154
+2024.12.09 20:21:17 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 20:21:17 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 20:21:17 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+12月 09, 2024 8:35:41 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+信息: Unsupported notification method: $/setTrace
+2024.12.09 20:39:23 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m

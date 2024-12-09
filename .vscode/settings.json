@@ -3,6 +3,7 @@
         "**/target": true
     },
     "files.associations": {
-        "common.h": "c"
+        "common.h": "c",
+        "algorithm.h": "c"
     }
 }

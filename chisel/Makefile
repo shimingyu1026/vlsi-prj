@@ -19,7 +19,7 @@ $(shell mkdir -p $(BUILD_DIR))
 
 
 VSRCS = $(shell find $(abspath ../verilogFile) -name "*.sv")
-CSRCS = $(shell find $(abspath ./csrc) -name "*.c" -or -name "*.cpp" -or ;-name "*.cc")
+CSRCS = $(shell find $(abspath ./csrc) -name "*.c" -or -name "*.cpp" -or -name "*.cc")
 
 
 verilog:
