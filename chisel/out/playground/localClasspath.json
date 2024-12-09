@@ -1,0 +1,9 @@
+{
+    "value": [
+        "ref:v0:c984eca8:/home/smy/vlsi/chisel/src/compile-resources",
+        "ref:v0:c984eca8:/home/smy/vlsi/chisel/src/src/main/resources",
+        "ref:v0:0a2c54fc:/home/smy/vlsi/chisel/out/playground/compile.dest/classes"
+    ],
+    "valueHash": 1920864016,
+    "inputsHash": -1059189488
+}

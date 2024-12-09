@@ -1,0 +1,453 @@
+2024.12.06 14:11:27 INFO  Started: Metals version 1.4.1 in folders '/home/smy/vlsi' for client Visual Studio Code 1.95.3.[0m
+2024.12.06 14:11:28 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.[0m
+2024.12.06 14:11:29 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:12:23 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:12:25 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:17:03 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:17:05 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:17:05 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:17:05 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:17:08 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:18:07 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:18:07 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:18:07 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:18:09 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:18:49 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:18:49 WARN  Could not find semantic tokens for: file:///home/smy/vlsi/chisel/src/main/top.scala[0m
+2024.12.06 14:18:54 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:18:54 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:18:54 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:18:54 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:18:54 WARN  Could not find semantic tokens for: file:///home/smy/vlsi/chisel/src/main/top.scala[0m
+2024.12.06 14:18:54 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:18:54 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:18:55 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:18:55 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:18:55 WARN  Could not find semantic tokens for: file:///home/smy/vlsi/chisel/src/main/top.scala[0m
+2024.12.06 14:18:55 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:18:55 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:18:55 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:18:55 WARN  Could not find semantic tokens for: file:///home/smy/vlsi/chisel/src/main/top.scala[0m
+2024.12.06 14:18:56 WARN  no build target for: /home/smy/vlsi/chisel/src/main/top.scala[0m
+2024.12.06 14:18:56 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:18:56 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:18:56 ERROR /home/smy/vlsi/chisel/src/main/top.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:76)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.emitMember(ScalaToplevelMtags.scala:757)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:251)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:88)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:485)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:583)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:580)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:580)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:947)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2024.12.06 14:18:56 WARN  Could not find semantic tokens for: file:///home/smy/vlsi/chisel/src/main/top.scala[0m
+2024.12.06 14:18:58 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:18:58 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:18:59 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:18:59 WARN  Could not find semantic tokens for: file:///home/smy/vlsi/chisel/src/main/top.scala[0m
+2024.12.06 14:18:58 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:18:59 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:18:59 WARN  Could not find semantic tokens for: file:///home/smy/vlsi/chisel/src/main/top.scala[0m
+2024.12.06 14:19:00 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:00 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:00 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:00 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:00 WARN  Could not find semantic tokens for: file:///home/smy/vlsi/chisel/src/main/top.scala[0m
+2024.12.06 14:19:00 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:00 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:00 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:00 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:00 WARN  Could not find semantic tokens for: file:///home/smy/vlsi/chisel/src/main/top.scala[0m
+2024.12.06 14:19:01 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:01 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:01 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:01 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:01 WARN  Could not find semantic tokens for: file:///home/smy/vlsi/chisel/src/main/top.scala[0m
+2024.12.06 14:19:01 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:01 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:02 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:02 WARN  Could not find semantic tokens for: file:///home/smy/vlsi/chisel/src/main/top.scala[0m
+2024.12.06 14:19:02 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:02 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:02 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:02 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:02 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:03 WARN  Could not find semantic tokens for: file:///home/smy/vlsi/chisel/src/main/top.scala[0m
+2024.12.06 14:19:02 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:03 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:03 WARN  Could not find semantic tokens for: file:///home/smy/vlsi/chisel/src/main/top.scala[0m
+2024.12.06 14:19:02 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:04 WARN  no build target for: /home/smy/vlsi/chisel/src/main/top.scala[0m
+2024.12.06 14:19:04 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:04 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:04 WARN  Could not find semantic tokens for: file:///home/smy/vlsi/chisel/src/main/top.scala[0m
+2024.12.06 14:19:04 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:04 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:04 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:04 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:04 WARN  Could not find semantic tokens for: file:///home/smy/vlsi/chisel/src/main/top.scala[0m
+2024.12.06 14:19:05 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:05 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:06 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:06 WARN  Could not find semantic tokens for: file:///home/smy/vlsi/chisel/src/main/top.scala[0m
+2024.12.06 14:19:06 WARN  no build target for: /home/smy/vlsi/chisel/src/main/top.scala[0m
+2024.12.06 14:19:06 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:06 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:06 WARN  Could not find semantic tokens for: file:///home/smy/vlsi/chisel/src/main/top.scala[0m
+2024.12.06 14:19:05 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:07 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:07 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:07 WARN  Could not find semantic tokens for: file:///home/smy/vlsi/chisel/src/main/top.scala[0m
+2024.12.06 14:19:07 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:07 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:07 WARN  Could not find semantic tokens for: file:///home/smy/vlsi/chisel/src/main/top.scala[0m
+2024.12.06 14:19:07 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:08 WARN  no build target for: /home/smy/vlsi/chisel/src/main/top.scala[0m
+2024.12.06 14:19:08 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:08 WARN  Could not find semantic tokens for: file:///home/smy/vlsi/chisel/src/main/top.scala[0m
+2024.12.06 14:19:08 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:08 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:08 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:08 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:09 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:11 WARN  no build target for: /home/smy/vlsi/chisel/src/main/top.scala[0m
+2024.12.06 14:19:11 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:11 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:11 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:11 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:11 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:11 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:12 WARN  no build target for: /home/smy/vlsi/chisel/src/main/top.scala[0m
+2024.12.06 14:19:12 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:12 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:12 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:13 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:12 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:12 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:14 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+12月 06, 2024 2:19:14 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 215
+2024.12.06 14:19:14 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:14 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+12月 06, 2024 2:19:14 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 220
+2024.12.06 14:19:14 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:14 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:14 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:14 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:14 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:14 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:14 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:15 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:16 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:16 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:16 WARN  no build target for: /home/smy/vlsi/chisel/src/main/top.scala[0m
+2024.12.06 14:19:16 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:16 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:16 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:20 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:20 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:21 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:21 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:21 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:21 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:21 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:21 WARN  no build target for: /home/smy/vlsi/chisel/src/main/top.scala[0m
+2024.12.06 14:19:21 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:21 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:21 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:21 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:21 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:21 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:23 WARN  no build target for: /home/smy/vlsi/chisel/src/main/top.scala[0m
+2024.12.06 14:19:23 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:23 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:23 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:23 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:24 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:24 WARN  no build target for: /home/smy/vlsi/chisel/src/main/top.scala[0m
+2024.12.06 14:19:24 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:24 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:25 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:24 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:26 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:26 WARN  no build target for: /home/smy/vlsi/chisel/src/main/top.scala[0m
+2024.12.06 14:19:26 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:26 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:26 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:26 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:27 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:26 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:26 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:26 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:26 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:27 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:28 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:28 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:28 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:28 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:28 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:28 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:29 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:29 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:29 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:30 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:30 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:30 WARN  no build target for: /home/smy/vlsi/chisel/src/main/top.scala[0m
+2024.12.06 14:19:30 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:31 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:31 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:31 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:32 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:32 WARN  no build target for: /home/smy/vlsi/chisel/src/main/top.scala[0m
+2024.12.06 14:19:32 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:32 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:32 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:33 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:33 WARN  no build target for: /home/smy/vlsi/chisel/src/main/top.scala[0m
+2024.12.06 14:19:33 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:34 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:34 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:34 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:35 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:35 WARN  no build target for: /home/smy/vlsi/chisel/src/main/top.scala[0m
+2024.12.06 14:19:35 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:35 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:35 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:36 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:36 WARN  no build target for: /home/smy/vlsi/chisel/src/main/top.scala[0m
+2024.12.06 14:19:36 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:37 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:37 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:37 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:37 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:37 WARN  no build target for: /home/smy/vlsi/chisel/src/main/top.scala[0m
+2024.12.06 14:19:37 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:38 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:38 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:39 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:40 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:40 WARN  no build target for: /home/smy/vlsi/chisel/src/main/top.scala[0m
+2024.12.06 14:19:40 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:43 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:43 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:43 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:44 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:44 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:45 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:45 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:45 WARN  no build target for: /home/smy/vlsi/chisel/src/main/top.scala[0m
+2024.12.06 14:19:45 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:45 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:45 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:46 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:45 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:45 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:45 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:47 WARN  no build target for: /home/smy/vlsi/chisel/src/main/top.scala[0m
+2024.12.06 14:19:47 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:47 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:48 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:48 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:47 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:48 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:48 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:49 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:49 WARN  no build target for: /home/smy/vlsi/chisel/src/main/top.scala[0m
+2024.12.06 14:19:49 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:49 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:51 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:51 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:51 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:51 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:51 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:51 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:51 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:51 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:52 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:53 WARN  no build target for: /home/smy/vlsi/chisel/src/main/top.scala[0m
+2024.12.06 14:19:53 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:53 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:53 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:53 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:53 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:53 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:53 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:53 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:54 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:54 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:55 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:54 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:54 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:55 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:55 WARN  no build target for: /home/smy/vlsi/chisel/src/main/top.scala[0m
+2024.12.06 14:19:55 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:56 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:56 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:56 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:56 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:57 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:58 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:58 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:58 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:58 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:58 WARN  no build target for: /home/smy/vlsi/chisel/src/main/top.scala[0m
+2024.12.06 14:19:58 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:58 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:59 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:59 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:19:59 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.06 14:48:40 INFO  Shutting down server[0m
+2024.12.06 14:48:40 INFO  shutting down Metals[0m
+2024.12.06 14:48:40 INFO  Exiting server[0m
+2024.12.06 14:48:40 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2024.12.09 14:49:56 INFO  Started: Metals version 1.4.1 in folders '/home/smy/vlsi' for client Visual Studio Code 1.95.3.[0m
+2024.12.09 14:49:57 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.[0m
+12月 09, 2024 3:10:57 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+信息: Unsupported notification method: $/setTrace
+2024.12.09 16:39:35 INFO  no build target found for /home/smy/vlsi/chisel/build.sc. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:35 INFO  no build target found for /home/smy/vlsi/chisel/build.sc. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:35 INFO  no build target found for /home/smy/vlsi/chisel/build.sc. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:39 INFO  no build target found for /home/smy/vlsi/chisel/build.sc. Using presentation compiler with project's scala-library version: 3.3.4[0m
+12月 09, 2024 4:39:39 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 4
+2024.12.09 16:39:39 INFO  no build target found for /home/smy/vlsi/chisel/build.sc. Using presentation compiler with project's scala-library version: 3.3.4[0m
+12月 09, 2024 4:39:39 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 10
+2024.12.09 16:39:39 INFO  no build target found for /home/smy/vlsi/chisel/build.sc. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:39 INFO  no build target found for /home/smy/vlsi/chisel/build.sc. Using presentation compiler with project's scala-library version: 3.3.4[0m
+12月 09, 2024 4:39:39 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 6
+2024.12.09 16:39:39 INFO  no build target found for /home/smy/vlsi/chisel/build.sc. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:39 INFO  no build target found for /home/smy/vlsi/chisel/build.sc. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:39 INFO  no build target found for /home/smy/vlsi/chisel/build.sc. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:41 INFO  no build target found for /home/smy/vlsi/chisel/build.sc. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:41 INFO  time: code lens generation in 2.46s[0m
+2024.12.09 16:39:41 INFO  time: code lens generation in 2.3s[0m
+2024.12.09 16:39:41 INFO  no build target found for /home/smy/vlsi/chisel/build.sc. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:42 INFO  no build target found for /home/smy/vlsi/chisel/build.sc. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:42 INFO  no build target found for /home/smy/vlsi/chisel/build.sc. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:42 INFO  no build target found for /home/smy/vlsi/chisel/build.sc. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:42 INFO  no build target found for /home/smy/vlsi/chisel/build.sc. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:42 INFO  no build target found for /home/smy/vlsi/chisel/build.sc. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:43 INFO  no build target found for /home/smy/vlsi/chisel/build.sc. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:43 INFO  no build target found for /home/smy/vlsi/chisel/build.sc. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:43 INFO  no build target found for /home/smy/vlsi/chisel/build.sc. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:47 INFO  no build target found for /home/smy/vlsi/chisel/build.sc. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:49 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:49 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:49 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:49 INFO  no build target found for /home/smy/vlsi/chisel/src/main/top.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:51 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:51 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:51 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:51 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:51 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:51 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:52 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:52 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:52 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:52 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:52 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:52 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:53 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:53 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:53 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:53 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:53 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:53 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:54 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:54 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:54 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:54 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:54 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+12月 09, 2024 4:39:55 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 76
+2024.12.09 16:39:55 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:55 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:55 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:55 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:55 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:56 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:56 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:56 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:56 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:57 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:57 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:57 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:57 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:57 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:57 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:58 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:58 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:58 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:58 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:58 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:39:58 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:40:00 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:40:00 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:40:00 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:40:00 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:40:00 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:40:00 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:40:01 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:40:01 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:40:01 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:40:01 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:40:01 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:40:02 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:40:02 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:40:02 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:40:02 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:40:02 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:40:02 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:40:03 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:40:03 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:40:03 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:40:03 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:40:06 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:40:06 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:40:06 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:40:06 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:40:07 WARN  no build target for: /home/smy/vlsi/chisel/src/main/Elaborate.scala[0m
+2024.12.09 16:40:06 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:40:09 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:40:12 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:40:12 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:40:13 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:40:13 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:40:12 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:40:13 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:40:13 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:40:13 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.09 16:40:15 WARN  no build target for: /home/smy/vlsi/chisel/src/main/Elaborate.scala[0m
+2024.12.09 20:14:59 INFO  no build target found for /home/smy/vlsi/chisel/src/main/Elaborate.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
