@@ -1,6 +1,0 @@
-[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/smy/vlsi/chisel/out/mill-build/compile.dest/classes ...[0m
-[0m[[0m[33mwarn[0m] [0m[0m/home/smy/vlsi/chisel/out/mill-build/generateScriptSources.dest/millbuild/build.sc:13:32: trait JavaModuleTests in trait JavaModule is deprecated (since Mill 0.11.10): Use JavaTests instead[0m
-[0m[[0m[33mwarn[0m] [0m[0m    _root_.mill.define.Discover[build][0m
-[0m[[0m[33mwarn[0m] [0m[0m                               ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
-[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m

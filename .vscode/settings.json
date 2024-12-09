@@ -1,9 +1,0 @@
-{
-    "files.watcherExclude": {
-        "**/target": true
-    },
-    "files.associations": {
-        "common.h": "c",
-        "algorithm.h": "c"
-    }
-}
