@@ -4,7 +4,6 @@
 // 字节代换
 void Plain_S_Substitution(uint8_t *PlainArray)
 {
-    int ret = 0;
 
     for (int i = 0; i < 16; i++)
     {
