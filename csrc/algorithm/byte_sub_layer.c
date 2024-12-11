@@ -1,5 +1,5 @@
-#include "common.h"
-#include "algorithm.h"
+#include "../include/common.h"
+#include "../include/algorithm.h"
 
 // 字节代换
 void Plain_S_Substitution(uint8_t *PlainArray)

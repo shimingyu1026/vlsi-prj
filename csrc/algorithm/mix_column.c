@@ -1,5 +1,5 @@
-#include "common.h"
-#include "algorithm.h"
+#include "../include/common.h"
+#include "../include/algorithm.h"
 uint8_t GaloisMultiplication(uint8_t Num_L, uint8_t Num_R);
 void MixColum(uint8_t (*PlainArray)[4])
 {

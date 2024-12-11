@@ -25,4 +25,9 @@ void ReMixColum(uint8_t (*PlainArray)[4]);
 
 // 子密钥生成
 void CalculateExtendKeyArray(const uint8_t (*PasswordArray)[4], uint8_t (*ExtendKeyArray)[44]);
+
+// 加密
+void AESEncode(const uint8_t (*PasswordArray)[4], uint8_t (*data)[4]);
+// 解密
+void AESDecode(const uint8_t (*PasswordArray)[4], uint8_t (*data)[4]);
 #endif

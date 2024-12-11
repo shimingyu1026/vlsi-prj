@@ -1,4 +1,4 @@
-#include "common.h"
+#include "../include/common.h"
 // S盒
 const uint8_t S_Table[16][16] =
     {

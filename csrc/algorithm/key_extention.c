@@ -1,5 +1,5 @@
-#include "common.h"
-#include "algorithm.h"
+#include "../include/common.h"
+#include "../include/algorithm.h"
 
 void Key_S_Substitution(uint8_t (*ExtendKeyArray)[44], uint32_t nCol)
 {

@@ -8,11 +8,13 @@ class top extends Module {
     val io = IO(new Bundle {
         val data_in = Input(Vec(4, Vec(4, UInt(8.W))))
         val data_out = Output(Vec(4, Vec(4, UInt(8.W))))
-        val key_in = Input(Vec(4, Vec(4, UInt(8.W))))
+        //val key_in = Input(Vec(4, Vec(4, UInt(8.W))))
     })
-    val aes = Module(new KeyAddr)
+    val dut = Module(new InvShiftRow)
 
-    aes.io <> io
+    dut.io.data_in := io.data_in
+    io.data_out   := dut.io.data_out
+
 
 }
 
