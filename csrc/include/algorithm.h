@@ -22,6 +22,7 @@ void ReShiftRows(uint32_t *CipherArray);
 // 列混淆
 void MixColum(uint8_t (*PlainArray)[4]);
 void ReMixColum(uint8_t (*PlainArray)[4]);
+uint8_t GaloisMultiplication(uint8_t Num_L, uint8_t Num_R);
 
 // 子密钥生成
 void CalculateExtendKeyArray(const uint8_t (*PasswordArray)[4], uint8_t (*ExtendKeyArray)[44]);

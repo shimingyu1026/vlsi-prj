@@ -71,9 +71,9 @@ int main(int argc, char *argv[])
     printf("\n");
 
     CalculateExtendKeyArray(key, extend_key);
-    ReShiftRows((uint32_t *)data);
-
+    MixColum(data);
     print_data(data);
+
 
     return 0;
 }
