@@ -24,7 +24,7 @@ CSRCS = $(shell find $(abspath ./csrc) -name "*.c" -or -name "*.cpp" -or -name "
 
 verilog:
 	mkdir -p $(V_BUILD_DIR)
-	mill  --mill-version 0.11.10 -i $(PRJ).runMain Elaborate --target-dir $(V_BUILD_DIR) --throw-on-first-error
+	mill  --mill-version 0.11.12 -i $(PRJ).runMain Elaborate --target-dir $(V_BUILD_DIR) --throw-on-first-error
 	@echo "Verilog generated in $(V_BUILD_DIR)"
 
 clean:

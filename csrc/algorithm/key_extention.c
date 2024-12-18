@@ -7,7 +7,9 @@ void Key_S_Substitution(uint8_t (*ExtendKeyArray)[44], uint32_t nCol)
     for (int i = 0; i < 4; i++)
     {
         ExtendKeyArray[i][nCol] = S_Table[(ExtendKeyArray[i][nCol]) >> 4][(ExtendKeyArray[i][nCol]) & 0x0F];
+        //printf("%x ", ExtendKeyArray[i][nCol]);
     }
+    //printf("\n");
 }
 
 void G_Function(uint8_t (*ExtendKeyArray)[44], uint32_t nCol)
@@ -18,10 +20,15 @@ void G_Function(uint8_t (*ExtendKeyArray)[44], uint32_t nCol)
     {
         ExtendKeyArray[i][nCol] = ExtendKeyArray[(i + 1) % 4][nCol - 1];
     }
+    if (nCol == 4)
+        //printf("bbb: %x%x%x%x\n", ExtendKeyArray[3][nCol], ExtendKeyArray[2][nCol], ExtendKeyArray[1][nCol], ExtendKeyArray[0][nCol]);
 
     // 2、将nCol列进行S盒替换
     Key_S_Substitution(ExtendKeyArray, nCol);
-
+    if (nCol == 4)
+    {
+        //printf("aaa: %x%x%x%x\n", ExtendKeyArray[3][nCol], ExtendKeyArray[2][nCol], ExtendKeyArray[1][nCol], ExtendKeyArray[0][nCol]);
+    }
     // 3、将该列第一行元素与Rcon进行异或运算
     ExtendKeyArray[0][nCol] ^= Rcon[nCol / 4];
 }

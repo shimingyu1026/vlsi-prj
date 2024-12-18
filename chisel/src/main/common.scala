@@ -95,17 +95,17 @@ object AESConstants {
 
   // Rcon Array for Key Expansion (Rcon[0] is padding)
   val Rcon = VecInit(Seq(
-    "h00".U(32.W), // padding
-    "h01".U(32.W),
-    "h02".U(32.W),
-    "h04".U(32.W),
-    "h08".U(32.W),
-    "h10".U(32.W),
-    "h20".U(32.W),
-    "h40".U(32.W),
-    "h80".U(32.W),
-    "h1b".U(32.W),
-    "h36".U(32.W)
+    "h00".U(8.W), // padding
+    "h01".U(8.W),
+    "h02".U(8.W),
+    "h04".U(8.W),
+    "h08".U(8.W),
+    "h10".U(8.W),
+    "h20".U(8.W),
+    "h40".U(8.W),
+    "h80".U(8.W),
+    "h1b".U(8.W),
+    "h36".U(8.W)
   ))
 
 

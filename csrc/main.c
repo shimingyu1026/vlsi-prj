@@ -49,32 +49,54 @@ int main(int argc, char *argv[])
 
     print_data(data);
     print_data(key);
+    printf("\n");
 
     for (int i = 0; i < 4; i++)
     {
         for (int j = 0; j < 4; j++)
         {
-            *data_in[i][j] = data[i][j];
-            //*key_in[i][j] = key[i][j];
+            *data_in[i][j] = key[i][j];
         }
     }
-    top->eval();
+
+    top->io_nCol = 0;
+    single_cycle(top);
 
     for (int i = 0; i < 4; i++)
     {
         for (int j = 0; j < 4; j++)
         {
-            printf("%02x", *data_out[i][j]);
+            printf("%02x ", *data_out[i][j]);
         }
+        printf("\n");
+    }
+
+    printf("\n");
+
+    top->io_nCol = 1;
+    single_cycle(top);
+
+    for (int i = 0; i < 4; i++)
+    {
+        for (int j = 0; j < 4; j++)
+        {
+            printf("%02x ", *data_out[i][j]);
+        }
+        printf("\n");
     }
 
     printf("\n");
 
     CalculateExtendKeyArray(key, extend_key);
-    MixColum(data);
-    print_data(data);
-
-
+    for (int i = 0; i < 4; i++)
+    {
+        for (int j = 0; j < 44; j++)
+        {
+            printf("%02x ", extend_key[i][j]);
+        }
+        printf("\n");
+    }
+    printf("\n");
     return 0;
 }
 
@@ -111,7 +133,7 @@ void reset(int n, Vtop *top)
     top->reset = 0;
     while (n-- > 0)
         single_cycle(top);
-    top->reset = 1;
+    top->reset = 0;
 }
 
 // 初始化随机数据
@@ -126,4 +148,9 @@ void init_random_data(uint8_t data[4][4])
             data[i][j] = (uint8_t)(rand() & 0xFF);
         }
     }
+
+
+    printf("a");
+    print_data(data);
+
 }
