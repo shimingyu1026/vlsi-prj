@@ -27,27 +27,30 @@ int main(int argc, char *argv[])
     uint8_t key[4][4] = {};
     uint8_t extend_key[4][44] = {};
 
-    uint8_t *data_in[4][4] = {
-        {&top->io_data_in_0_0, &top->io_data_in_0_1, &top->io_data_in_0_2, &top->io_data_in_0_3},
-        {&top->io_data_in_1_0, &top->io_data_in_1_1, &top->io_data_in_1_2, &top->io_data_in_1_3},
-        {&top->io_data_in_2_0, &top->io_data_in_2_1, &top->io_data_in_2_2, &top->io_data_in_2_3},
-        {&top->io_data_in_3_0, &top->io_data_in_3_1, &top->io_data_in_3_2, &top->io_data_in_3_3}};
+    /*uint8_t *data_in[4][4] = {
+         {&top->io_data_in_0_0, &top->io_data_in_0_1, &top->io_data_in_0_2, &top->io_data_in_0_3},
+         {&top->io_data_in_1_0, &top->io_data_in_1_1, &top->io_data_in_1_2, &top->io_data_in_1_3},
+         {&top->io_data_in_2_0, &top->io_data_in_2_1, &top->io_data_in_2_2, &top->io_data_in_2_3},
+         {&top->io_data_in_3_0, &top->io_data_in_3_1, &top->io_data_in_3_2, &top->io_data_in_3_3}};*/
     uint8_t *data_out[4][4] = {
         {&top->io_data_out_0_0, &top->io_data_out_0_1, &top->io_data_out_0_2, &top->io_data_out_0_3},
         {&top->io_data_out_1_0, &top->io_data_out_1_1, &top->io_data_out_1_2, &top->io_data_out_1_3},
         {&top->io_data_out_2_0, &top->io_data_out_2_1, &top->io_data_out_2_2, &top->io_data_out_2_3},
         {&top->io_data_out_3_0, &top->io_data_out_3_1, &top->io_data_out_3_2, &top->io_data_out_3_3}};
-    /*
+
     uint8_t *key_in[4][4] = {
         {&top->io_key_in_0_0, &top->io_key_in_0_1, &top->io_key_in_0_2, &top->io_key_in_0_3},
         {&top->io_key_in_1_0, &top->io_key_in_1_1, &top->io_key_in_1_2, &top->io_key_in_1_3},
         {&top->io_key_in_2_0, &top->io_key_in_2_1, &top->io_key_in_2_2, &top->io_key_in_2_3},
         {&top->io_key_in_3_0, &top->io_key_in_3_1, &top->io_key_in_3_2, &top->io_key_in_3_3}};
-*/
+
     init_random_data(data);
     init_random_data(key);
 
+    printf("data: ");
     print_data(data);
+    printf("\n");
+    printf("key: ");
     print_data(key);
     printf("\n");
 
@@ -55,13 +58,19 @@ int main(int argc, char *argv[])
     {
         for (int j = 0; j < 4; j++)
         {
-            *data_in[i][j] = key[i][j];
+            key[i][j] = i * j;
         }
     }
 
-    top->io_nCol = 0;
-    single_cycle(top);
+    for (int i = 0; i < 4; i++)
+    {
+        for (int j = 0; j < 4; j++)
+        {
+            *key_in[i][j] = key[i][j];
+        }
+    }
 
+    top->eval();
     for (int i = 0; i < 4; i++)
     {
         for (int j = 0; j < 4; j++)
@@ -70,12 +79,10 @@ int main(int argc, char *argv[])
         }
         printf("\n");
     }
-
+    single_cycle(top);
     printf("\n");
 
-    top->io_nCol = 1;
-    single_cycle(top);
-
+    top->eval();
     for (int i = 0; i < 4; i++)
     {
         for (int j = 0; j < 4; j++)
@@ -84,10 +91,23 @@ int main(int argc, char *argv[])
         }
         printf("\n");
     }
+    single_cycle(top);
+    printf("\n");
 
+    top->eval();
+    for (int i = 0; i < 4; i++)
+    {
+        for (int j = 0; j < 4; j++)
+        {
+            printf("%02x ", *data_out[i][j]);
+        }
+        printf("\n");
+    }
+    single_cycle(top);
     printf("\n");
 
     CalculateExtendKeyArray(key, extend_key);
+
     for (int i = 0; i < 4; i++)
     {
         for (int j = 0; j < 44; j++)
@@ -96,7 +116,6 @@ int main(int argc, char *argv[])
         }
         printf("\n");
     }
-    printf("\n");
     return 0;
 }
 
@@ -106,7 +125,7 @@ void print_data(uint8_t data[4][4])
     {
         for (int j = 0; j < 4; j++)
         {
-            printf("%02x", data[i][j]);
+            printf("%02x ", data[i][j]);
         }
     }
     printf("\n");
@@ -122,15 +141,15 @@ void sim_init(int argc, char **argv)
 
 void single_cycle(Vtop *top)
 {
-    top->clock = 0;
-    top->eval();
     top->clock = 1;
+    top->eval();
+    top->clock = 0;
     top->eval();
 }
 void reset(int n, Vtop *top)
 {
 
-    top->reset = 0;
+    top->reset = 1;
     while (n-- > 0)
         single_cycle(top);
     top->reset = 0;
@@ -148,9 +167,4 @@ void init_random_data(uint8_t data[4][4])
             data[i][j] = (uint8_t)(rand() & 0xFF);
         }
     }
-
-
-    printf("a");
-    print_data(data);
-
 }
