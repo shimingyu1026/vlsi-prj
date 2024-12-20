@@ -49,11 +49,31 @@ void CalculateExtendKeyArray(const uint8_t (*PasswordArray)[4], uint8_t (*Extend
     for (int i = 1; i < 11; i++) // 进行十轮循环
     {
         uint8_t g_out[4];
-        g_out[0] = ExtendKeyArray[3][(i) * 4 - 1];
-        g_out[1] = ExtendKeyArray[2][(i) * 4 - 1];
-        g_out[2] = ExtendKeyArray[1][(i) * 4 - 1];
-        g_out[3] = ExtendKeyArray[0][(i) * 4 - 1];
-
+        uint8_t w3[4];
+        uint8_t w2[4];
+        uint8_t w1[4];
+        uint8_t w0[4];
+        for (int j = 0; j < 4; j++)
+        {
+            w0[j] = ExtendKeyArray[3 - j][4 * (i - 1)];
+            w1[j] = ExtendKeyArray[3 - j][4 * (i - 1) + 1];
+            w2[j] = ExtendKeyArray[3 - j][4 * (i - 1) + 2];
+            w3[j] = ExtendKeyArray[3 - j][4 * (i - 1) + 3];
+            g_out[j] = ExtendKeyArray[3 - j][4 * (i - 1) + 3];
+        }
         G_Function(g_out, i);
+
+        *(uint32_t *)w0 = *(uint32_t *)w0 ^ *(uint32_t *)g_out;
+        *(uint32_t *)w1 = *(uint32_t *)w1 ^ *(uint32_t *)w0;
+        *(uint32_t *)w2 = *(uint32_t *)w2 ^ *(uint32_t *)w1;
+        *(uint32_t *)w3 = *(uint32_t *)w3 ^ *(uint32_t *)w2;
+
+        for (int j = 0; j < 4; j++)
+        {
+            ExtendKeyArray[3 - j][4 * i] = w0[j];
+            ExtendKeyArray[3 - j][4 * i + 1] = w1[j];
+            ExtendKeyArray[3 - j][4 * i + 2] = w2[j];
+            ExtendKeyArray[3 - j][4 * i + 3] = w3[j];
+        }
     }
 }

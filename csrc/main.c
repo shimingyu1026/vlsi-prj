@@ -70,7 +70,7 @@ int main(int argc, char *argv[])
         }
     }
 
-    top->eval();
+    single_cycle(top);
     for (int i = 0; i < 4; i++)
     {
         for (int j = 0; j < 4; j++)
@@ -79,10 +79,9 @@ int main(int argc, char *argv[])
         }
         printf("\n");
     }
-    single_cycle(top);
     printf("\n");
 
-    top->eval();
+    single_cycle(top);
     for (int i = 0; i < 4; i++)
     {
         for (int j = 0; j < 4; j++)
@@ -91,23 +90,9 @@ int main(int argc, char *argv[])
         }
         printf("\n");
     }
-    single_cycle(top);
-    printf("\n");
-
-    top->eval();
-    for (int i = 0; i < 4; i++)
-    {
-        for (int j = 0; j < 4; j++)
-        {
-            printf("%02x ", *data_out[i][j]);
-        }
-        printf("\n");
-    }
-    single_cycle(top);
     printf("\n");
 
     CalculateExtendKeyArray(key, extend_key);
-
     for (int i = 0; i < 4; i++)
     {
         for (int j = 0; j < 44; j++)
