@@ -25,7 +25,6 @@ class InvByteSub extends Module {
     val data_out = Output(Vec(4, Vec(4, UInt(8.W))))
   })
   val invsbox = InvSBox
-
   for (i <- 0 until 4) {
     for (j <- 0 until 4) {
       io.data_out(i)(j) := invsbox((io.data_in(i)(j) & "hF0".U) | (io.data_in(i)(j) & "hF".U))
