@@ -19,7 +19,7 @@ void init_random_data(uint8_t data[4][4]);
 void print_data(uint8_t data[4][4]);
 int main(int argc, char *argv[])
 {
-    // 设置随机种子
+
     srand(time(NULL));
     sim_init(argc, argv);
     reset(10, top);
@@ -27,11 +27,11 @@ int main(int argc, char *argv[])
     uint8_t key[4][4] = {};
     uint8_t extend_key[4][44] = {};
 
-    /*uint8_t *data_in[4][4] = {
-         {&top->io_data_in_0_0, &top->io_data_in_0_1, &top->io_data_in_0_2, &top->io_data_in_0_3},
-         {&top->io_data_in_1_0, &top->io_data_in_1_1, &top->io_data_in_1_2, &top->io_data_in_1_3},
-         {&top->io_data_in_2_0, &top->io_data_in_2_1, &top->io_data_in_2_2, &top->io_data_in_2_3},
-         {&top->io_data_in_3_0, &top->io_data_in_3_1, &top->io_data_in_3_2, &top->io_data_in_3_3}};*/
+    uint8_t *data_in[4][4] = {
+        {&top->io_data_in_0_0, &top->io_data_in_0_1, &top->io_data_in_0_2, &top->io_data_in_0_3},
+        {&top->io_data_in_1_0, &top->io_data_in_1_1, &top->io_data_in_1_2, &top->io_data_in_1_3},
+        {&top->io_data_in_2_0, &top->io_data_in_2_1, &top->io_data_in_2_2, &top->io_data_in_2_3},
+        {&top->io_data_in_3_0, &top->io_data_in_3_1, &top->io_data_in_3_2, &top->io_data_in_3_3}};
     uint8_t *data_out[4][4] = {
         {&top->io_data_out_0_0, &top->io_data_out_0_1, &top->io_data_out_0_2, &top->io_data_out_0_3},
         {&top->io_data_out_1_0, &top->io_data_out_1_1, &top->io_data_out_1_2, &top->io_data_out_1_3},
@@ -47,60 +47,26 @@ int main(int argc, char *argv[])
     init_random_data(data);
     init_random_data(key);
 
-    printf("data: ");
-    print_data(data);
-    printf("\n");
-    printf("key: ");
-    print_data(key);
-    printf("\n");
-
-    for (int i = 0; i < 4; i++)
-    {
-        for (int j = 0; j < 4; j++)
-        {
-            key[i][j] = i * j;
-        }
-    }
-
     for (int i = 0; i < 4; i++)
     {
         for (int j = 0; j < 4; j++)
         {
             *key_in[i][j] = key[i][j];
+            *data_in[i][j] = data[i][j];
         }
     }
-
     single_cycle(top);
+
+    AESEncode(key, data);
     for (int i = 0; i < 4; i++)
     {
         for (int j = 0; j < 4; j++)
         {
-            printf("%02x ", *data_out[i][j]);
+            assert(*data_out[i][j] == data[i][j]);
         }
-        printf("\n");
     }
-    printf("\n");
+    printf("test case has passed!\n");
 
-    single_cycle(top);
-    for (int i = 0; i < 4; i++)
-    {
-        for (int j = 0; j < 4; j++)
-        {
-            printf("%02x ", *data_out[i][j]);
-        }
-        printf("\n");
-    }
-    printf("\n");
-
-    CalculateExtendKeyArray(key, extend_key);
-    for (int i = 0; i < 4; i++)
-    {
-        for (int j = 0; j < 44; j++)
-        {
-            printf("%02x ", extend_key[i][j]);
-        }
-        printf("\n");
-    }
     return 0;
 }
 

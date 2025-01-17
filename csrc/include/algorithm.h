@@ -29,6 +29,7 @@ void CalculateExtendKeyArray(const uint8_t (*PasswordArray)[4], uint8_t (*Extend
 
 // 加密
 void AESEncode(const uint8_t (*PasswordArray)[4], uint8_t (*data)[4]);
+void AESEncoderound(const uint8_t (*PasswordArray)[4], uint8_t (*data)[4]);
 // 解密
 void AESDecode(const uint8_t (*PasswordArray)[4], uint8_t (*data)[4]);
 #endif

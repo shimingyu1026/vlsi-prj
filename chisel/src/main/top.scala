@@ -5,24 +5,36 @@ import common.AESConstants._
 
 class top extends Module {
   val io = IO(new Bundle {
-    //val data_in  = Input(Vec(4, Vec(4, UInt(8.W))))
-    val data_out = Output(Vec(4, Vec(4, UInt(8.W))))
-    val key_in   = Input(Vec(4, Vec(4, UInt(8.W))))
-    //val nCol = Input(UInt(4.W))
+    val data_in  = Input(UInt(1.W))
+    val data_out = Output(UInt(1.W))
+    val key_in   = Input(UInt(1.W))
   })
 
-  val nCol    = RegInit(0.U(4.W))
-  val key_mid = RegInit(VecInit(Seq.fill(4)(VecInit(Seq.fill(4)(0.U(8.W))))))
-  val key     = RegInit(VecInit(Seq.fill(4)(VecInit(Seq.fill(4)(0.U(8.W))))))
+  val aol1 = Module(new algo_col_mid)
+  val aol2 = Module(new algo_col_mid)
 
-  val dut = Module(new KeyExpansion)
+  val key1 = Module(new KeyExpansion)
+  val key2 = Module(new KeyExpansion)
 
-  key     := io.key_in
-  nCol    := nCol + 1.U
-  key_mid := dut.io.key_out
+  key1.io.nCol := 1.U
 
-  dut.io.key_in := Mux(nCol === 1.U || nCol === 0.U, key, key_mid)
-  dut.io.nCol   := nCol
-  io.data_out   := dut.io.key_out
-  //dut.io <> io
+  key2.io.key_in := key1.io.key_out
+  key2.io.nCol   := 2.U
+
+  for (i <- 0 until 4) {
+    for (j <- 0 until 4) {
+      aol1.io.data_in(i)(j) := io.data_in
+      key1.io.key_in(i)(j)  := io.key_in
+    }
+  }
+
+  aol1.io.key_in := key1.io.key_out
+
+  aol2.io.data_in := aol1.io.data_out
+  aol2.io.key_in  := key2.io.key_out
+
+  io.data_out := aol2.io.data_out(2)(1)
+
+  dontTouch(aol1.io.data_out)
+
 }

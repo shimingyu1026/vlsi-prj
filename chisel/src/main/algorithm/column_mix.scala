@@ -10,17 +10,37 @@ class ColumnMix extends Module {
     val data_in  = Input(Vec(4, Vec(4, UInt(8.W))))
     val data_out = Output(Vec(4, Vec(4, UInt(8.W))))
   })
+  val ArcTable = Mem(256, UInt(8.W))
+  loadMemoryFromFile(ArcTable, "../memory/arctable.hex")
+
+  val MixColumns = Mem(16, UInt(8.W))
+  loadMemoryFromFile(MixColumns, "../memory/mixcolumns.hex")
+
+  val Table = Mem(256, UInt(8.W))
+  loadMemoryFromFile(Table, "../memory/table.hex")
 
   for (i <- 0 until 4) {
     for (j <- 0 until 4) {
       io.data_out(i)(j) := Mux(
         io.data_in(0)(j) === 0.U,
         0.U,
-        Table((ArcTable(MixColumns(i)(0)) +& ArcTable(io.data_in(0)(j))) % 255.U)
+        Table((ArcTable(MixColumns(4 * i + 0)) +& ArcTable(io.data_in(0)(j))) % 255.U)
       ) ^
-        Mux(io.data_in(1)(j) === 0.U, 0.U, Table((ArcTable(MixColumns(i)(1)) +& ArcTable(io.data_in(1)(j))) % 255.U)) ^
-        Mux(io.data_in(2)(j) === 0.U, 0.U, Table((ArcTable(MixColumns(i)(2)) +& ArcTable(io.data_in(2)(j))) % 255.U)) ^
-        Mux(io.data_in(3)(j) === 0.U, 0.U, Table((ArcTable(MixColumns(i)(3)) +& ArcTable(io.data_in(3)(j))) % 255.U))
+        Mux(
+          io.data_in(1)(j) === 0.U,
+          0.U,
+          Table((ArcTable(MixColumns(4 * i + 1)) +& ArcTable(io.data_in(1)(j))) % 255.U)
+        ) ^
+        Mux(
+          io.data_in(2)(j) === 0.U,
+          0.U,
+          Table((ArcTable(MixColumns(4 * i + 2)) +& ArcTable(io.data_in(2)(j))) % 255.U)
+        ) ^
+        Mux(
+          io.data_in(3)(j) === 0.U,
+          0.U,
+          Table((ArcTable(MixColumns(4 * i + 3)) +& ArcTable(io.data_in(3)(j))) % 255.U)
+        )
     }
   }
 }
